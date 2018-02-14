@@ -23,15 +23,17 @@ Package.onUse(function(api) {
     api.addFiles([
         // Input
         'autoform-intl-tel-input.html',
-        'autoform-intl-tel-input.js'
+        'autoform-intl-tel-input.js',
+
+        // Plugin files
+        '.npm/package/node_modules/intl-tel-input/build/css/intlTelInput.css',
+        '.npm/package/node_modules/intl-tel-input/build/js/intlTelInput.min.js'
     ], 'client');
 
     // Lib
     api.addAssets([
         '.npm/package/node_modules/intl-tel-input/build/img/flags.png',
         '.npm/package/node_modules/intl-tel-input/build/img/flags@2x.png',
-        '.npm/package/node_modules/intl-tel-input/build/css/intlTelInput.css',
-        '.npm/package/node_modules/intl-tel-input/build/js/intlTelInput.min.js',
-        '.npm/package/node_modules/intl-tel-input/build/js/utils.js',
+        '.npm/package/node_modules/intl-tel-input/build/js/utils.js'
     ], 'client');
 });
