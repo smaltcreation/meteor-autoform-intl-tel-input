@@ -20,14 +20,17 @@ Package.onUse(function(api) {
 
     // Files
     api.addFiles([
-        // Lib
+        // Input
+        'autoform-intl-tel-input.html',
+        'autoform-intl-tel-input.js'
+    ], 'client');
+
+    // Lib
+    api.addAssets([
         '.npm/package/node_modules/intl-tel-input/build/img/flags.png',
         '.npm/package/node_modules/intl-tel-input/build/img/flags@2x.png',
         '.npm/package/node_modules/intl-tel-input/build/css/intlTelInput.css',
         '.npm/package/node_modules/intl-tel-input/build/js/intlTelInput.min.js',
-        '.npm/package/node_modules/intl-tel-input/lib/libphonenumber/build/utils.js',
-        // Input
-        'autoform-intl-tel-input.html',
-        'autoform-intl-tel-input.js'
+        '.npm/package/node_modules/intl-tel-input/build/js/utils.js',
     ], 'client');
 });
