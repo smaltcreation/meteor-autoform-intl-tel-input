@@ -5,7 +5,7 @@ Package.describe({
 });
 
 Npm.depends({
-    'intl-tel-input': '6.0.6'
+    'intl-tel-input': '12.1.9'
 });
 
 Package.onUse(function(api) {
@@ -17,6 +17,7 @@ Package.onUse(function(api) {
         'templating',
         'aldeed:autoform'
     ], 'client');
+
 
     // Files
     api.addFiles([
