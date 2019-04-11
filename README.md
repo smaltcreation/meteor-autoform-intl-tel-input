@@ -16,7 +16,7 @@ In your `SimpleSchema` object, `autoform` has to be type of `'intl-tel'`:
           intlTelOptions: {
               autoFormat: true,
               defaultCountry: 'FR',
-              utilsScript: 'lib/libphonenumber/build/utils.js'
+              utilsScript: '/packages/smaltcreation_autoform-intl-tel-input/.npm/package/node_modules/intl-tel-input/build/js/utils.js'
           }
       }
   }
